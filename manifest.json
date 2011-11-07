@@ -3,22 +3,18 @@
 	"version" : "0.1",
 	"description" : "Easily consume links from your favorite feeds!",
 	"icons" : {
-		  "16" : "megusta_16.png",
-		  "48" : "megusta_48.png",
-		  "128" : "megusta_128.png"
+		  "16" : "feedme16.png",
+		  "48" : "feedme48.png",
+		  "128" : "feedme128.png"
 		  },
 	"browser_action": {
-			  "default_icon" : "megusta_16.png",
-			  "default_title" : "Eat a link!"
+			  "default_icon" : "feedme16.png",
+			  "default_title" : "Eat a link!",
+			  "popup": "popup.html"
 			},
 	"permissions" : [
-		      "tabs"
-		      ],
-	"content_scripts" : [
-			  {
-				"matches" : ["http*"],
-				"js" : ["jquery-1.6.4.min.js","content_script.js"]
-			}
-			]
+		      "tabs",
+		      "http://dl.dropbox.com/"
+		      ]
 
 }		  
