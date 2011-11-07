@@ -14,7 +14,8 @@
 			},
 	"permissions" : [
 		      "tabs",
-		      "http://dl.dropbox.com/"
+		      "http://dl.dropbox.com/",
+		      "http://feedme.wesleyzhao.com/"
 		      ]
 
 }		  

@@ -1,6 +1,6 @@
 var URLToChange = "http://google.com";
 var linksPage = "http://dl.dropbox.com/u/19699329/feedme.json";
-
+linksPage = "http://feedme.wesleyzhao.com/links";
 function getNextLink(){
 
     if (isStorageLinksEmpty()){
